@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>resources/traffic.png</file>
+    <file>resources/gray_circle.png</file>
+    <file>resources/okay.png</file>
+    <file>resources/bus-front.png</file>
+    <file>resources/stop.png</file>
+    <file>resources/refresh.png</file>
+    <file>resources/orange_circle.png</file>
+    <file>resources/car-front.png</file>
+    <file>resources/green_circle.png</file>
+    <file>resources/motorcycle-side.png</file>
+    <file>resources/red_circle.png</file>
+    <file>resources/un-close.png</file>
+    <file>resources/icon_close.png</file>
+    <file>resources/close.jpg</file>
+    <file>resources/setting.png</file>
+    <file>resources/camera.png</file>
+    <file>resources/open.png</file>
+    <file>resources/pause.png</file>
+    <file>resources/play.png</file>
+    <file>resources/Rider Dome Logo v2.png</file>
+  </qresource>
+</RCC>

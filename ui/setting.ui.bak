@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Dialog</class>
+    <widget class="QDialog" name="Dialog">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>772</width>
+                <height>744</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Settings</string>
+        </property>
+        <property name="windowIcon">
+            <iconset>
+                <normalon>:/newPrefix/resources/setting.png</normalon>
+            </iconset>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+                <widget class="QScrollArea" name="scrollArea">
+                    <property name="maximumSize">
+                        <size>
+                            <width>16777215</width>
+                            <height>111111</height>
+                        </size>
+                    </property>
+                    <property name="widgetResizable">
+                        <bool>true</bool>
+                    </property>
+                    <widget class="QWidget" name="scrollAreaWidgetContents">
+                        <property name="geometry">
+                            <rect>
+                                <x>0</x>
+                                <y>0</y>
+                                <width>752</width>
+                                <height>641</height>
+                            </rect>
+                        </property>
+                        <widget class="QWidget" name="layoutWidget">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>10</y>
+                                    <width>392</width>
+                                    <height>141</height>
+                                </rect>
+                            </property>
+                            <layout class="QFormLayout" name="formLayout">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="label_23">
+                                        <property name="text">
+                                            <string>Car front/back width</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="lineCarFrontBackWidth">
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>16777215</height>
+                                            </size>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="label_24">
+                                        <property name="text">
+                                            <string>Car side length</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <widget class="QLineEdit" name="lineCarSideLength">
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>16777215</height>
+                                            </size>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="0">
+                                    <widget class="QLabel" name="label_25">
+                                        <property name="text">
+                                            <string>Bus front/back width</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="1">
+                                    <widget class="QLineEdit" name="lineBusFrontBackWidth">
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>16777215</height>
+                                            </size>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="0">
+                                    <widget class="QLabel" name="label_26">
+                                        <property name="text">
+                                            <string>Motorcycle width</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="3" column="1">
+                                    <widget class="QLineEdit" name="lineMotorcycleWidth">
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>16777215</height>
+                                            </size>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="4" column="0">
+                                    <widget class="QLabel" name="label_27">
+                                        <property name="text">
+                                            <string>Pedestrian width</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="4" column="1">
+                                    <widget class="QLineEdit" name="linePedestrianWidth">
+                                        <property name="minimumSize">
+                                            <size>
+                                                <width>0</width>
+                                                <height>0</height>
+                                            </size>
+                                        </property>
+                                        <property name="maximumSize">
+                                            <size>
+                                                <width>100</width>
+                                                <height>16777215</height>
+                                            </size>
+                                        </property>
+                                    </widget>
+                                </item>
+                            </layout>
+                        </widget>
+                        <widget class="QWidget" name="formLayoutWidget">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>190</y>
+                                    <width>301</width>
+                                    <height>80</height>
+                                </rect>
+                            </property>
+                            <layout class="QFormLayout" name="formLayout_2">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="label">
+                                        <property name="text">
+                                            <string>angle</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="front_safe_distance_angle"/>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="label_2">
+                                        <property name="text">
+                                            <string>distance min, max</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <layout class="QHBoxLayout" name="horizontalLayout_2">
+                                        <item>
+                                            <widget class="QLineEdit" name="front_safe_distance_min"/>
+                                        </item>
+                                        <item>
+                                            <widget class="QLineEdit" name="front_safe_distance_max"/>
+                                        </item>
+                                    </layout>
+                                </item>
+                            </layout>
+                        </widget>
+                        <widget class="QLabel" name="label_3">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>170</y>
+                                    <width>141</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Front Safe Distance</string>
+                            </property>
+                        </widget>
+                        <widget class="QWidget" name="formLayoutWidget_2">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>310</y>
+                                    <width>301</width>
+                                    <height>80</height>
+                                </rect>
+                            </property>
+                            <layout class="QFormLayout" name="formLayout_3">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="label_4">
+                                        <property name="text">
+                                            <string>angle</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <widget class="QLineEdit" name="front_collision_angle"/>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="label_5">
+                                        <property name="text">
+                                            <string>distance min, max</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                                        <item>
+                                            <widget class="QLineEdit" name="front_collision_distance_min"/>
+                                        </item>
+                                        <item>
+                                            <widget class="QLineEdit" name="front_collision_distance_max"/>
+                                        </item>
+                                    </layout>
+                                </item>
+                            </layout>
+                        </widget>
+                        <widget class="QLabel" name="label_6">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>280</y>
+                                    <width>141</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Front Collision</string>
+                            </property>
+                        </widget>
+                        <widget class="QWidget" name="formLayoutWidget_3">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>420</y>
+                                    <width>301</width>
+                                    <height>97</height>
+                                </rect>
+                            </property>
+                            <layout class="QFormLayout" name="formLayout_4">
+                                <item row="0" column="0">
+                                    <widget class="QLabel" name="label_8">
+                                        <property name="text">
+                                            <string>distance min, max</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="0" column="1">
+                                    <layout class="QHBoxLayout" name="horizontalLayout_4">
+                                        <item>
+                                            <widget class="QLineEdit" name="blindspot_distance_min"/>
+                                        </item>
+                                        <item>
+                                            <widget class="QLineEdit" name="blindspot_distance_max"/>
+                                        </item>
+                                    </layout>
+                                </item>
+                                <item row="1" column="0">
+                                    <widget class="QLabel" name="label_10">
+                                        <property name="text">
+                                            <string>side angle min, max</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="1" column="1">
+                                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                                        <item>
+                                            <widget class="QLineEdit" name="blindspot_angle_min"/>
+                                        </item>
+                                        <item>
+                                            <widget class="QLineEdit" name="blindspot_angle_max"/>
+                                        </item>
+                                    </layout>
+                                </item>
+                                <item row="2" column="0">
+                                    <widget class="QLabel" name="label_7">
+                                        <property name="text">
+                                            <string>rear angle</string>
+                                        </property>
+                                    </widget>
+                                </item>
+                                <item row="2" column="1">
+                                    <widget class="QLineEdit" name="blindspot_rear_angle"/>
+                                </item>
+                            </layout>
+                        </widget>
+                        <widget class="QLabel" name="label_9">
+                            <property name="geometry">
+                                <rect>
+                                    <x>10</x>
+                                    <y>400</y>
+                                    <width>141</width>
+                                    <height>16</height>
+                                </rect>
+                            </property>
+                            <property name="text">
+                                <string>Blindspot</string>
+                            </property>
+                        </widget>
+                    </widget>
+                </widget>
+            </item>
+            <item>
+                <widget class="QFrame" name="frame">
+                    <property name="maximumSize">
+                        <size>
+                            <width>16777215</width>
+                            <height>30</height>
+                        </size>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout_19" stretch="0,0,0,0">
+                        <item>
+                            <spacer name="horizontalSpacer_33">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeType">
+                                    <enum>QSizePolicy::Maximum</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>30</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_16">
+                                <property name="text">
+                                    <string>Video Speed</string>
+                                </property>
+                                <property name="wordWrap">
+                                    <bool>false</bool>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QComboBox" name="cbVideoSpeed">
+                                <property name="sizePolicy">
+                                    <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+                                        <horstretch>0</horstretch>
+                                        <verstretch>0</verstretch>
+                                    </sizepolicy>
+                                </property>
+                                <property name="maximumSize">
+                                    <size>
+                                        <width>100</width>
+                                        <height>16777215</height>
+                                    </size>
+                                </property>
+                                <item>
+                                    <property name="text">
+                                        <string>1</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>2</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>3</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>4</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>5</string>
+                                    </property>
+                                </item>
+                            </widget>
+                        </item>
+                        <item>
+                            <spacer name="horizontalSpacer_32">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+            <item>
+                <widget class="QFrame" name="frame">
+                    <property name="maximumSize">
+                        <size>
+                            <width>16777215</width>
+                            <height>50</height>
+                        </size>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout">
+                        <item>
+                            <spacer name="horizontalSpacer_5">
+                                <property name="orientation">
+                                    <enum>Qt::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnOk">
+                                <property name="text">
+                                    <string>Save</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnCancel">
+                                <property name="text">
+                                    <string>Cancel</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </widget>
+            </item>
+        </layout>
+    </widget>
+    <resources>
+        <include location="resource.qrc"/>
+    </resources>
+    <connections/>
+</ui>
