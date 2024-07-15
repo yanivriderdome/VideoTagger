@@ -4,8 +4,6 @@ from PyQt5.QtCore import *
 import cv2
 import globalStuff
 
-fps = 25
-
 
 class Thread(QThread):
     changePixmap = pyqtSignal(np.ndarray, int, int, bool)
@@ -44,6 +42,7 @@ class Thread(QThread):
     def run(self):
         counter = 1
         sleep_counter = 0
+        self.pause = False
         while True:
             self.finished = False
             QThread.msleep(33)

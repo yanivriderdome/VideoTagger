@@ -403,7 +403,7 @@
                 </size>
                </property>
                <property name="text">
-                <string> Double </string>
+                <string> Delete </string>
                </property>
               </widget>
              </item>
@@ -421,6 +421,158 @@
                </property>
               </widget>
              </item>
+
+              <item row="2" column="0">
+              <widget class="QPushButton" name="btnCollisionAlert">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>200</height>
+                </size>
+               </property>
+               <property name="text">
+                <string> Collision Alert </string>
+               </property>
+              </widget>
+             </item>
+
+              <item row="2" column="1">
+              <widget class="QPushButton" name="btnDistanceAlert">
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>200</height>
+                </size>
+               </property>
+               <property name="text">
+                <string> Distance Alert </string>
+               </property>
+              </widget>
+             </item>
+
+            <item row="0" column="10">
+             <widget class="QLineEdit" name="StartFrameBox">
+                 <property name="placeholderText">
+                     <string>Start Frame</string>
+                 </property>
+                 <property name="inputMask">
+                     <string>999999</string>
+                 </property>
+             </widget>
+            </item>
+            <item row="0" column="11">
+             <widget class="QLineEdit" name="EndFrameBox">
+                 <property name="placeholderText">
+                     <string>End Frame</string>
+                 </property>
+                 <property name="inputMask">
+                     <string>999999</string>
+                 </property>
+             </widget>
+            </item>
+            <item row="1" column="11">
+              <widget class="QPushButton" name="btnCrop">
+               <property name="font">
+                <font>
+                 <family>MS Shell Dlg 2</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Crop&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Shell Dlg 2</family>
+                 <pointsize>20</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string> Crop </string>
+               </property>
+
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            <item row="2" column="11">
+              <widget class="QPushButton" name="btnMove">
+               <property name="font">
+                <font>
+                 <family>MS Shell Dlg 2</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Move&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <family>MS Shell Dlg 2</family>
+                 <pointsize>20</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                 <underline>false</underline>
+                 <strikeout>false</strikeout>
+                </font>
+               </property>
+               <property name="text">
+                <string> Move </string>
+               </property>
+
+               <property name="iconSize">
+                <size>
+                 <width>30</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="flat">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+
+            <item row="2" column="10">
+             <widget class="QLineEdit" name="FileNameBox">
+                 <property name="placeholderText">
+                     <string>Filename</string>
+                 </property>
+             </widget>
+            </item>
+
              <item row="0" column="1">
               <widget class="QPushButton" name="btnStartFront">
                <property name="font">
